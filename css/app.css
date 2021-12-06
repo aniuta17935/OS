@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'Bitstream Vera';
+    src: url('./fonts/VeraSe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Bitstream Vera';
+    src: url('./fonts/VeraSeBd.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Bitstream Vera, serif;
+}
+
+table tr:nth-child(2n) {
+    background-color: whitesmoke;
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify
+}
+
+table {
+    width: 100%;
+    text-align: left
+}
+
+u {
+    color: blue;
+}
+
+code {
+    font-size: 18px;
+}
+
+img:first-of-type {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:nth-of-type(2) {
+    display: block;
+    width: 50%;
+    float: right;
+    margin: 25px;
+}
+
+dl dt {
+    font-style: italic;
+}
+code {
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+    img:nth-of-type(2) {
+        width: 75%;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
