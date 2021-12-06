@@ -19,6 +19,7 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
     font-family: Bitstream Vera, serif;
+    color: darkmagenta
 }
 
 table tr:nth-child(2n) {
